@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cameras Explored</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        main header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        header{
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header h1 {
+            font-size: 2.3em;
+        }
+          header h2 {
+            font-size: 2.3em;
+        }
+          header h3 {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <center>
+        <h1>CS1102 - Course Project - 2024/2025 Semester B </h1>
+        <h2>Threat and Solutions for Internet Security in E-Banking</h2>
+        <h3>Wong Ka Ki 58530566, Ngai Ming Chu 58532702, Chan Hoi Lam 57223300</h3>
+        <h4
+    </center>
+     </header>
+    <main>
+        
+            <h1>E-Banking Security Threats</h1>
+            <h3>Phishing</h3>
+            <p>Phishing is a widespread technique employed by cybercriminals. In this scheme, attackers would pretend themselves to come from legitimate organizations such as banks, online retailers, payment platforms, or even government organizations. They would trick user to provide sensitive information and personal data, through electronic communications such as emails, text messages (SMS), or fake websites.</p>
+           <center>
+           <img src="/Users/wkk/Desktop/Threats/Photo1.jpeg" width="500" height="333">
+           </center>
+
+
+            <h3>Malware</h3>
+            <p>Malware, short for malicious software, refers to any program or code designed to harm, exploit, or compromise a device or its user without their knowledge or consent. These include spywares and Trojan horses. Spyware is a type of software that is installed on a device, without permission from the user. It could monitor and record device user's information and internet behavior by hiding its malicious purpose. Trojan horse is another malware design to collect online banking credentials and other sensitive information from infected machines. It gains access to a computer by pretending to be legitimate software.</p>
+
+        <center>
+           <img src="/Users/wkk/Desktop/Threats/Photo2.webp" alt="Trulli" width="500" height="333">
+           </center>
+
+
+            <h3>Man-in-the-Middle (MITM) Attacks</h3>
+            <p>Man in the middle (MITM) attack is a general term, when a perpetrator positions himself in a conversation between a user and an application to eavesdrop or impersonate one of the parties, making it looks like a normal exchange of information is. Broadly speaking, a MITM attack is the equivalent of a mailman opening your bank statement, writing down your account details and then resealing the envelope and delivering it to your door. There are mainly eight types of MITM attacks includes email hijacking, IP spoofing, session hijacking, APP cache poisoning, wi-fi eavesdropping, DNS spoofing, secure sockets layer hijacking and stealing browser cookies.</p>
+            <center>
+           <img src="/Users/wkk/Desktop/Threats/Photo3.jpg" width="500" height="333">
+           </center>
+        
+        
+    </main>
+  
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
