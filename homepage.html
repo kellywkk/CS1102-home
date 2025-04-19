@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cameras Explored</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header{
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header h1 {
+            font-size: 2.3em;
+        }
+          header h2 {
+            font-size: 2.3em;
+        }
+          header h3 {
+            font-size: 1.5em;
+        }
+        nav ul {
+            list-style: none;
+            background-color: #55789a;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1.2em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #1e90ff;
+        }
+
+        main {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        main h1 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        main h2 {
+            color: #2c3e50;
+            margin-top: 25px;
+        }
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #55789a;
+            margin: 20px 0;
+        }
+
+              footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+            nav ul li {
+                display: block;
+                margin: 0.8em 0;
+            }
+            main {
+                padding: 1.5em;
+            }
+            section h2 {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CS1102 - Course Project - 2024/2025 Semester B </h1>
+        <h2>Threat and Solutions for Internet Security in E-Banking</h2>
+        <h3>Wong Ka Ki 58530566, Ngai Ming Chu 58532702, Chan Hoi Lam 57223300</h3>
+        
+    
+     </header>
+
+            <nav>
+            <ul>
+                <center>
+                <li><a href="#Threat">Threat</a></li>
+                <li><a href="#Solution">Solution</a></li>
+                <li><a href="#Case">Case</a></li>
+                <li><a href="#Future">Future</a></li>
+                <li><a href="#Quiz">Quiz</a></li>
+                </center>
+            </ul>
+            </nav>
+    
+    <main>
+           <h1>E-Banking Overview</h1>
+
+<p>E-banking (electronic/online banking) enables customers to conduct financial transactions through the internet, mobile apps, and ATMs. According to Singhal & Padhmanabhan (2009), primary services include:</p>
+
+<ul>
+    <li>Account balance checks</li>
+    <li>Bill payments</li>
+    <li>Fund transfers</li>
+    <li>Credit card management</li>
+    <li>Order checks</li>
+</ul>
+
+<div class="highlight">
+    <h2>Key Benefits</h2>
+    <h3>Time Saving</h3>
+    <p>People can transfer and receive money instantly using the internet or mobile apps, which is time saving. This is different from waiting in the long queue for money transfer and receive.</p>
+
+    <h3>Faster transction</h3>
+    <p>Singhal & Padhmanabhan (2009) said that the important benefit of e-banking is information distribution quickly about the worth of money in anyplace anytime with a mouse click. People can transfer money anyplace anytime using the e-banking system that reflect e-banking provide a faster transavtions.</p>
+
+</div>
+
+<div class="highlight">
+    <h2>Current Challenges</h2>
+    
+    <h3>Usage Barriers</h3>
+    <p>Elderly and non-tech-savvy users often struggle with digital interfaces and authentication methods like face recognition (Bahl, 2012).</p>
+    
+    <h3>Security Concerns</h3>
+    <p>Many customers worry about hacking risks and unauthorized access. Banks can implement two-factor authentication and encryption to address these concerns.</p>
+</div>
+
+<h2>Conclusion</h2>
+<p>E-banking has changed the way for people to manage their finances, for example individuals and businesses. They provide convenience and efficiency within the e-banking transactions. They conduct transactions and provide the number of financial services using the e-banking systems. However, there are some challenges associated with usages and security issues. Therefore, they need to continue support and educate people, for example online tutorials, workshops and customer service centers.</p>
+
+    </main>
+    <footer>
+        <p>CS1102 - Course Project - 2024/2025 Semester B </p>
+        <p>Wong Ka Ki 58530566, Ngai Ming Chu 58532702, Chan Hoi Lam 57223300</p>
+      </footer>
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
