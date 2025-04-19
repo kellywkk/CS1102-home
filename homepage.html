@@ -60,7 +60,6 @@
             margin: 0 auto;
             padding: 20px;
             color: #333;
-            font-size: 1.2em;
         }
         main h1 {
             color: #2c3e50;
@@ -71,6 +70,7 @@
             color: #2c3e50;
             margin-top: 25px;
         }
+
               footer {
             background-color: #2c3e50;
             color: white;
@@ -93,18 +93,41 @@
                 font-size: 1.6em;
             }
         }
-
-        .Catalog-item p{
+        .Catalog-item h3{
             font-family: 'Helvetica', Arial, sans-serif;
             line-height: 1.6;
             color: #333;
             background-color: #f9f9f9;
             text-align:justify;
-            text-align: center;
             background: #55789a;
-            display: block;
+            column-span: all;
+            justify-content: space-evenly;
 
         }
+
+
+        a {
+            margin: 0;
+            width: 100%;
+            display: flex;
+            padding: 5px 0;
+            justify-content: center;
+            background-color: #F0F8FF;
+            border-top: solid 1px gray;
+            border-bottom:solid 1px gray;
+            cursor: pointer;
+            font-weight: bold;
+            color: grey;
+            text-decoration: none;
+        }
+
+        .slogan h2{
+            color:red;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
     </style>
 </head>
 <body>
@@ -112,27 +135,28 @@
         <h1>CS1102 - Course Project - 2024/2025 Semester B </h1>
         <h2>Threat and Solutions for Internet Security in E-Banking</h2>
         <h3>Wong Ka Ki 58530566, Ngai Ming Chu 58532702, Chan Hoi Lam 57223300</h3>
-        
     
      </header>
     
     <div class= "Catalog-container">
         <div class = "Catalog-inner">
             <div class="Catalog-item">
-                    <p>
+                <h3>
                         <a href="https://katienmc.github.io/CS1102/Timeline">Timeline</a>
-                        <a href="https://kellywkk.github.io/CS1102-home/Threat">Threat</a> 
+                        <a href="https://kellywkk.github.io/CS1102-home/Threat">Threat</a>
                         <a href="https://katienmc.github.io/CS1102/Solutions">Solutions</a> 
                         <a href="https://amanda5312.github.io/Amanda/case">Real Case</a> 
-                         <a href="https://katienmc.github.io/CS1102/Quiz">Quiz</a>
-                        <a href="https://kellywkk.github.io/CS1102-home/Threat">References</a> 
-                    </p>
-                </div>
+                        <a href="https://katienmc.github.io/CS1102/Quiz">Quiz</a>
+                        <a href="https://amanda5312.github.io/Amanda/References">References</a>
+                </h3>
             </div>
         </div>
-    
+    </div>
+ 
+
+
     <main>
-           <h1>What is E-Banking?</h1>
+           <h1>E-Banking Overview</h1>
 
 <p>E-banking (electronic/online banking) enables customers to conduct financial transactions through the internet, mobile apps, and ATMs. Primary services include:</p>
 
@@ -143,30 +167,43 @@
     <li>Credit card management</li>
     <li>Order checks</li>
 </ul>
+        <img src ="https://i.pinimg.com/736x/0d/e5/a3/0de5a3f6373854ee11a25ce6b18e9d2e.jpg" width="200px">
+     <br>
+     <br>
 
 <div class="highlight">
-    <br>
-    <h1>Key Benefits</h1>                  
+    <h1>Key Benefits</h1>
     <h2>Time Saving</h2>
     <p>People can transfer and receive money instantly using the internet or mobile apps, which is time saving. This is different from waiting in the long queue for money transfer and receive.</p>
-
     <h2>Faster transction</h2>
     <p>The important benefit of e-banking is information distribution quickly about the worth of money in anyplace anytime with a mouse click. People can transfer money anyplace anytime using the e-banking system that reflect e-banking provide a faster transavtions.</p>
+    <img src ="https://i.pinimg.com/736x/84/f5/ee/84f5ee35b34dd3b13e52512f76a47fcb.jpg" width="200px">
+    <br>
+    <br>
 
 </div>
 
 <div class="highlight">
-    <br>
     <h1>Current Challenges</h1>
     <h2>Usage Barriers</h2>
     <p>Elderly and non-tech-savvy users often struggle with digital interfaces and authentication methods like face recognition.</p>
-    
     <h2>Security Concerns</h2>
     <p>Many customers worry about hacking risks and unauthorized access. Banks can implement two-factor authentication and encryption to address these concerns.</p>
+    <img src ="https://i.pinimg.com/736x/f2/0b/c2/f20bc2fb90ebb2e3e0bbc7ecd81447a2.jpg" width="200px">
+    <br>
+    <br>
 </div>
-<br>
+
 <h1>Conclusion</h1>
 <p>E-banking has changed the way for people to manage their finances, for example individuals and businesses. They provide convenience and efficiency within the e-banking transactions. They conduct transactions and provide the number of financial services using the e-banking systems. However, there are some challenges associated with usages and security issues. Therefore, they need to continue support and educate people, for example online tutorials, workshops and customer service centers.</p>
+   <div class= "Slogan">
+      <center>
+       <h2>Stay Secure, Stay Smart:E-Banking with Confidence!</h2>
+       </center>
+   </div>
+    <center>
+        <img src ="https://i.pinimg.com/736x/5e/2d/c3/5e2dc365e8a1da3ad24dd05399d5b64b.jpg" width="300px">
+    </center>
 
     </main>
     <footer>
